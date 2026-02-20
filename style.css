@@ -1,6 +1,6 @@
 .container {
     margin: 50px auto; /* Center the container */
-    width: 90%;
+    width: 100%;
      max-width: 600px;
      line-height: 1.6;
      background-color:white;
@@ -96,4 +96,5 @@ td {
     border-bottom: 1px solid hsl(30, 18%, 87%); /* Stone 150 for the divider lines */
     text-align: left;
     color: hsl(30, 10%, 34%); /* Dark gray text */
+
 }
