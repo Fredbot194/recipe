@@ -1,0 +1,99 @@
+.container {
+    margin: 50px auto; /* Center the container */
+    width: 90%;
+     max-width: 600px;
+     line-height: 1.6;
+     background-color:white;
+     padding: 30px;
+     border-radius: 20px;
+}
+
+body {
+    background-color:hsl(30, 54%, 90%); /* Light orange background */
+}
+
+.attribution{
+    font-size: 11px;
+     text-align: center;
+     color: hsl(30, 10%, 34%); /* Dark gray text */
+     margin-top: 50px;
+}
+img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+h1 {
+    font-family: "Young Serif", serif;
+    font-weight: 400;
+}
+
+.ingredients {
+    color: hsl(14, 45%, 36%); /* Dark orange text */
+     font-family: "Young Serif", serif;
+     font-weight: 400;
+     margin-top: 50px;
+}
+
+.instructions {
+    color: hsl(14, 45%, 36%); /* Dark orange text */
+     font-family: "Young Serif", serif;
+     font-weight: 400;
+     margin-top: 50px;
+}
+
+ol li::marker {
+    color: hsl(14, 45%, 36%); /* Dark orange text */
+     font-family: "Young Serif", serif;
+     font-weight: 400;
+}
+.preparation-time {
+    background-color:hsl(330, 100%, 98%); /* Light pink background */
+    border-radius: 10px;
+    padding-left: 10px;
+    margin-top: 50px;
+}
+.preparation {
+    margin-left: 15px;
+    color: hsl(332, 51%, 32%); /* Dark pink text */
+    font-family:"outfit", sans-serif;
+    font-weight:700;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+li {
+    padding-left: 15px;
+}
+p, li {
+    font-family: "Outfit", sans-serif;
+    font-weight: 400;
+    color: hsl(30, 10%, 34%); /* Dark gray text */
+    font-size: 15px;
+}
+
+.nutrition {
+    color: hsl(14, 45%, 36%); /* Dark orange text */
+     font-family: "Young Serif", serif;
+     font-weight: 400;
+     margin-top: 50px;
+}
+table {
+    width: 80%;               /* Forces the table to stretch to the card edges */
+    border-collapse: collapse; /* This is crucial—it merges the cell borders into single lines */
+    margin-left: 30px;               
+}
+
+.stat {
+    color:hsl(14, 45%, 36%); /* Dark orange text */;
+        font-weight: 700;
+        font-family: "Outfit", sans-serif;
+        font-size: 14px;
+}
+
+td {
+    padding: 12px 24px;        /* Adds vertical space (12px) and a horizontal gap (24px) */
+    border-bottom: 1px solid hsl(30, 18%, 87%); /* Stone 150 for the divider lines */
+    text-align: left;
+    color: hsl(30, 10%, 34%); /* Dark gray text */
+}
