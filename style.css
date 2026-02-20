@@ -1,6 +1,6 @@
 .container {
     margin: 50px auto; /* Center the container */
-    width: 100%;
+    width: 80%;
      max-width: 600px;
      line-height: 1.6;
      background-color:white;
@@ -98,3 +98,4 @@ td {
     color: hsl(30, 10%, 34%); /* Dark gray text */
 
 }
+
